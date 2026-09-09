@@ -4,8 +4,8 @@ namespace Lab2
 {
     public class Car
     {
-        private string _brand;
-        private string _model;
+        private string _brand = string.Empty;
+        private string _model = string.Empty;
         private int _year;
 
         public string Brand
@@ -62,13 +62,13 @@ namespace Lab2
     {
         static void Main(string[] args)
         {
-            Car car1 = new Car();
+            Car? car1 = new Car();
             car1.StartEngine();
 
-            Car car2 = new Car("Toyota", "Camry", 2021);
+            Car? car2 = new Car("Toyota", "Camry", 2021);
             car2.StartEngine();
 
-            Car car3 = new Car("Tesla", "Cybertruck", 2035);
+            Car? car3 = new Car("Tesla", "Cybertruck", 2035);
             car3.StartEngine();
 
             car1 = null;
