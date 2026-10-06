@@ -40,3 +40,4 @@ Rectangle rectangleRef = rectangle;
 Console.WriteLine(shapeRef.GetShapeType());       
 Console.WriteLine(rectangleRef.GetShapeType());
 
+![alt text](image.png)
