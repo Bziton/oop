@@ -1,7 +1,7 @@
 ﻿using System.Globalization;
 using System.Text;
 
-namespace Lab17v2;
+namespace Lab11v2;
 
 public class Product
 {
